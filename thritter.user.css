@@ -1,0 +1,211 @@
+@-moz-document domain("threads.net") {
+    /* ==UserStyle==
+    @name              Thritter
+    @namespace         https://userstyles.world/style/11719/thritter
+    @description  It's old Twitter, but for Threads
+    @author       Vozer
+    @version      1.0.0
+    ==/UserStyle== */
+    
+/*
+
+/*
+  _____       _           _                         
+ / __  \  _  | |         (_)  _     _               
+| | /   )| |_| |__   ____ _ _| |_ _| |_ _____  ____ 
+| | \__(_   _)  _ \ / ___) (_   _|_   _) ___ |/ ___)
+| |____  | |_| | | | |   | | | |_  | |_| ____| |    
+ \_____)  \__)_| |_|_|   |_|  \__)  \__)_____)_|    
+                                                    
+*/
+
+
+/* 
+ __  __  ____ _  _    ____   __ __ ___  ___ ____   ___   __   __    
+ ||  || ||    \\//    || \\  || || ||\\//|| || )) // \\ (( \ (( \   
+ ||==|| ||==   )/     ||  )) || || || \/ || ||=)  ||=||  \\   \\    
+ ||  || ||___ //      ||_//  \\_// ||    || ||_)) || || \_)) \_))   
+                                                                    
+ ____   ____  ___  ____      ______ __  __ __  __                   
+ || \\ ||    // \\ || \\     | || | ||  || || (( \                  
+ ||_// ||==  ||=|| ||  ))      ||   ||==|| ||  \\                   
+ || \\ ||___ || || ||_//       ||   ||  || || \_))      
+
+                                                                                      
+i made this like 2 hours after the threads website launched
+
+this probably isnt the pretiest, there probably quite a lot of areas that arent even covvered--
+but your ass is probably gonna use it anyways. maybe you'll even turn it off after a couple minutes once you got your screenshots and showed your friends. that sounds like something you would do actually. maybe you'll bitch and moan about how awful it looks, "oh vozer, this looks horrible. and you didnt even use certain selectors properly you can fix this, you can fix that"-- fix it for me then, twat. this is a userstyle, not a website for the funeral of your uncle who was honorably discharged dispite taking german woman on d-day. you can always make something better.
+
+
+referenced from - https://github.com/dimdenGD/OldTwitter
+
+*/
+
+.x1jagh45.x1jagh45 {
+    max-width: 100%;
+    margin: auto;
+    margin-top: -28px;
+    padding-top: 7px;
+        background-color: rgba(30, 40, 53, 1);
+}
+
+.xx1cvcw {
+    padding-top: 10px;
+}
+
+.xmcdc9a {
+    fill: rgba(101, 170, 206, 1);
+}
+
+[class*="x1lliihq x1n2onr6"] {
+    color: rgba(201, 201, 201, 1);
+}
+
+
+[class*="x1ypdohk x13dflua x11xpdln xk4oym4 xus2keu"] {
+    display: none;
+}
+
+
+.xxrhqlm.xxrhqlm {
+    box-sizing: content-box;
+}
+
+.xlqac96.xlqac96 {
+    padding-left: 0px;
+}
+.x3jo4qq.x3jo4qq {
+    width: 35vw;
+}
+
+.x1jagh45.x1jagh45 {
+    grid-template-columns: min-content;
+}
+
+/* Icons and their names */
+.x1n2onr6.x1t782dm.x1i1dspy.x15mrz16.x8fyrj6.x1xd0w19.xzperd.xxrhqlm.x18obnno.xlqac96.x1kd5ks7.x3jo4qq>nav>div:nth-child(1)>div>a::after {
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 2px;
+    content: "Home ";
+    color: rgba(201, 201, 201, 1);
+}
+
+.x1n2onr6.x1t782dm.x1i1dspy.x15mrz16.x8fyrj6.x1xd0w19.xzperd.xxrhqlm.x18obnno.xlqac96.x1kd5ks7.x3jo4qq>nav>div:nth-child(2)>div>a::after {
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 2px;
+    content: "Search";
+    color: rgba(201, 201, 201, 1);
+}
+
+.x1n2onr6.x1t782dm.x1i1dspy.x15mrz16.x8fyrj6.x1xd0w19.xzperd.xxrhqlm.x18obnno.xlqac96.x1kd5ks7.x3jo4qq>nav>div:nth-child(3)>div>div::after {
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 2px;
+    content: "Post";
+    color: rgba(201, 201, 201, 1);
+}
+
+.x1n2onr6.x1t782dm.x1i1dspy.x15mrz16.x8fyrj6.x1xd0w19.xzperd.xxrhqlm.x18obnno.xlqac96.x1kd5ks7.x3jo4qq>nav>div:nth-child(4)>div>a::after {
+    font-weight: bold;
+    margin-left: 10px;
+    padding-top: 2px;
+    content: "Likes";
+    color: rgba(201, 201, 201, 1);
+}
+
+.x1n2onr6.x1t782dm.x1i1dspy.x15mrz16.x8fyrj6.x1xd0w19.xzperd.xxrhqlm.x18obnno.xlqac96.x1kd5ks7.x3jo4qq>nav>div:nth-child(5)>div>a::after {
+    font-weight: bold;
+    margin-left: 10px;
+    content: "You";
+    padding-top: 2px;
+    color: rgba(201, 201, 201, 1);
+}
+
+
+/* posts */
+.x78zum5.xdt5ytf.x1iyjqo2.x1gryazu.xkrivgy.xn9wirt.x1i1dspy.x15mrz16.xdezb45.xobwaui.xxrhqlm.x18obnno.x1whvj5h.x1pdq7kp.x1ja2u2z {
+        background-color: var(--background-color);
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    border-top: 1px solid var(--border);
+    cursor: pointer;
+    min-height: 75px;
+    padding: 10px;
+}
+
+[class*="x78zum5 xdt5ytf x1n2onr6 x1ja2u2z"] {
+    background-color: rgba(22, 29, 37, 1);
+}
+
+
+
+
+/* for you button, post button */
+.xz401s1, .xz4gly6 {
+    color: var(--almost-black);
+    background-color: var(--darker-background-color);
+    background-image: linear-gradient(var(--background-color),var(--darker-background-color));
+    background-repeat: no-repeat;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: normal;
+    padding: 8px 16px;
+}
+
+/* posting */
+[class="x1i10hfl xjbqb8w x6umtig x1b1mbwd xaqea5y xav7gou x9f619 xe8uvvx xdj266r xat24cr xexx8yu x4uap5 x18d9i69 x16tdsg8 x1hl2dhg xggy1nq x1a2a7pz x6s0dn4 x1a2cdl4 xnhgr82 x1qt0ttw xgk8upj x1ed109x x78zum5 x1iyjqo2 x1i64zmx x1emribx x1e558r4 x87ps6o"] {
+    border: 1px solid var(--border);
+    background-color: rgba(23, 32, 41, 1);
+    border-radius: 3px;
+    display: inline-block;
+    font: 18px var(--font);
+    padding-right: 40px;
+}
+
+div > div > div > div > div.x78zum5.xdt5ytf.x1t2pt76.x1n2onr6.x1ja2u2z > div.x78zum5.xdt5ytf.x1iyjqo2.x1gryazu.xkrivgy.xn9wirt.x1i1dspy.x15mrz16.xdezb45.xobwaui.xxrhqlm.x18obnno.x1whvj5h.x1pdq7kp.x1ja2u2z > div.xnn1q72.x13dflua.x11xpdln > div.x137v6ai > div > div.x1i10hfl.xjbqb8w.x6umtig.x1b1mbwd.xaqea5y.xav7gou.x9f619.xe8uvvx.xdj266r.xat24cr.xexx8yu.x4uap5.x18d9i69.x16tdsg8.x1hl2dhg.xggy1nq.x1a2a7pz.x6s0dn4.x1a2cdl4.xnhgr82.x1qt0ttw.xgk8upj.x1ed109x.x78zum5.x1iyjqo2.x1i64zmx.x1emribx.x1e558r4.x87ps6o > span {
+    color: rgba(101, 170, 206, 1);
+    padding-top: 8px;
+}
+}
+
+@-moz-document domain("threads.net") {
+:root
+{
+    --background-color: #1b2836;
+    --dark-background-color: #171f2a;
+    --darker-background-color: #141d26;
+    --almost-black: #d4e3ed;
+    --border: #2c3c52;
+    --darker-gray: #c9c9c9;
+    --lil-darker-gray: #8394a1;
+    --light-gray: #8394a1;
+    --default-text-color: white;
+    --new-tweet-over: rgba(27, 40, 54, 0.92);
+    --input-background: #15202a;
+    --active-message: #141d26;
+    --more-color: #a088ff;
+    --choice-bg: rgb(44 62 71);
+    --list-actions-bg: #19212b;
+    --menu-bg: rgba(34,46,60,0.98);
+    --font: Arial;
+    --tweet-font: Arial;
+    --link-color: #4BACD2;
+    --favorite-icon-content: "\f148";
+    --favorite-icon-content-notif: "\f015";
+    --favorite-icon-color: rgb(249, 24, 128);
+    --favorite-icon-content-click: "\f148";
+}
+}
+
+@-moz-document domain("threads.net") {
+/* home */
+[d="M2.25 12.8855V20.7497C2.25 21.8543 3.14543 22.7497 4.25 22.7497H8.25C8.52614 22.7497 8.75 22.5259 8.75 22.2497V17.6822V17.4997C8.75 15.1525 10.6528 13.2497 13 13.2497C15.3472 13.2497 17.25 15.1525 17.25 17.4997V17.6822V22.2497C17.25 22.5259 17.4739 22.7497 17.75 22.7497H21.75C22.8546 22.7497 23.75 21.8543 23.75 20.7497V12.8855C23.75 11.3765 23.0685 9.94815 21.8954 8.99883L16.1454 4.3454C14.3112 2.86095 11.6888 2.86095 9.85455 4.3454L4.10455 8.99883C2.93153 9.94815 2.25 11.3765 2.25 12.8855Z"] {
+    color: var(--link-color);
+}
+}
