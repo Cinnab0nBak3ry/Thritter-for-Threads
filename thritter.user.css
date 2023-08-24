@@ -34,7 +34,7 @@
                                                                                       
 i made this like 2 hours after the threads website launched
 
-this probably isnt the pretiest, there probably quite a lot of areas that arent even covvered--
+this probably isnt the pretiest, theres probably quite a lot of areas that arent even covered--
 
 referenced from - https://github.com/dimdenGD/OldTwitter
 
@@ -46,6 +46,7 @@ referenced from - https://github.com/dimdenGD/OldTwitter
     margin-top: -28px;
     padding-top: 7px;
         background-color: rgba(30, 40, 53, 1);
+        border-bottom: 1px solid var(--border);
 }
 
 .xx1cvcw {
